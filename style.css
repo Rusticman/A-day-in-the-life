@@ -1,0 +1,140 @@
+header, section, footer, aside, nav, article, figure, figcaption{
+	display: block;
+}
+body{
+	color:#ffffff;/*white */
+	background-color:#fae6d1;/*nice beige */
+	background-image:url("../images/Sunset.jpg");
+	opacity: 0.85;
+	background-position: center;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	font-family: Comic Sans MS;
+	line-height:
+	margin:0px;
+}
+.countries{
+	width:940px;
+	margin: 20px auto 20px auto;
+	border: none;
+	background-color: #ffa64d;/*orange page*/
+	padding: 30px;
+
+}
+
+
+header{
+	height:120px;
+	color:#ffffff;/*white */
+}
+
+h1{
+	text-align: center;
+	width: 940px;
+}
+
+ footer{
+	clear: both;
+	color: #ffffff;/*white */
+	background-color:#ffa64d;/*orange page*/
+}
+
+nav{
+	clear: both;
+	color: #ffffff;/*white */
+	background-color:#ffa64d;/*orange page*/
+}
+
+nav ul{
+	padding: 5px 0px 5px 65px;
+}
+
+nav li{
+	display: inline;
+	margin-right: 40px;
+
+}
+
+nav li a{
+	color:#ffffff;/*white */
+}
+
+nav li a:hover, nav li a.current{
+	color:#000099 /*dark blue */
+
+}
+
+ aside h2{
+	 padding: 30px 0px 10px 0px;
+	 color: #ffffff;/*white */
+ }
+
+section.homepage{ /*changed the name */
+	float: right;
+	width: 659px;
+	border-left: 1px solid #ffaa80;/*nice orange */
+	margin: 40px auto auto none;
+}
+
+article{
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+figure{
+	float: left;
+	width: 600px;
+	height:
+	padding: 5px;
+	margin: 20px;
+	border: none;
+
+}
+
+figcaption{
+	font-size: 90%;
+	text-align: left;
+
+}
+
+aside{
+	width: 230px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+
+aside section a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #eeeeee;
+	}
+
+aside section a: hover{
+	color:#9933ff; /*purple */
+	background-color:#ff8080; /*red */
+}
+
+ a{
+	 color:#ffffff;/*white */
+	 text-decoration: none;
+ }
+
+ h1, h2{
+	 font-weight: normal;
+ }
+
+
+
+ div.countries h2{
+	padding: 30px 0px 10px 0px;
+	display: inline;
+	color: #ffffff;/*white */
+}
+
+
+
+ footer{
+	 font-size: 80%;
+	 padding: 7px 0px 0px 20px;
+	 text-align: center;
+ }
