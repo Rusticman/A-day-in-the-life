@@ -3,7 +3,7 @@ header, section, footer, aside, nav, article, figure, figcaption{
 }
 body{
 	color:#ffffff;/*white */
-	background-color:#fae6d1;/*nice beige */
+	background-color:blue;/*nice beige */
 	background-image:url("../images/Sunset.jpg");
 	opacity: 0.85;
 	background-position: center;
